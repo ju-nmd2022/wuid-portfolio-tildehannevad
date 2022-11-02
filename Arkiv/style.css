@@ -1,0 +1,60 @@
+h1 {
+  font-size: 90px;
+  color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+body {
+  background-color: lightpink;
+}
+.tilde {
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+}
+.tilde {
+  margin: 2cm;
+  margin-bottom: 4cm;
+}
+.food {
+  width: 300px;
+  border-radius: 50%;
+  float: right;
+  margin: 1cm;
+}
+.hobbies h2 {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  text-align: left;
+}
+.more h2 {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  text-align: left;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  text-align: left;
+}
+
+li {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style: circle;
+  text-align: left;
+}
+body {
+  margin: 2cm;
+}
+footer {
+  text-align: right;
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  font-size: 90px;
+  color: purple;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.vättern {
+  width: 300px;
+  float: left;
+  margin: 2cm;
+}
+p {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+.fest {
+  width: 300px;
+  float: right;
+  margin: 2cm;
+}
+.drinks {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+.left {
+  width: 210px;
+  float: left;
+}
+.middle {
+  width: 210px;
+  float: left;
+}
+.right {
+  width: 210px;
+  float: left;
+}
+li {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style: circle;
+  text-align: left;
+}
+footer {
+  text-align: right;
+}
