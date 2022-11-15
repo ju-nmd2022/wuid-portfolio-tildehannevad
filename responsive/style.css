@@ -1,0 +1,42 @@
+body {
+  background-color: lightyellow;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40pt;
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    background-color: lightpink;
+  }
+}
+@media screen and (min-width: 1366px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.figma {
+  width: 20rem;
+}
+.logo {
+  width: 20rem;
+}
+.LisaS {
+  width: 20rem;
+}
+.coffeetablebook {
+  width: 20rem;
+}
+.aristokittens {
+  width: 20rem;
+}
