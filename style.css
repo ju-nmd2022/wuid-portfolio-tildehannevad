@@ -61,3 +61,56 @@ footer {
 a {
   color: lightblue;
 }
+
+.tilde {
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: center bottom;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-90vh) scaleX(0.8) scaleY(1.5);
+  }
+  30% {
+    transform: scaleX(0) scaleY(1.3);
+  }
+  40% {
+    transform: translateY(0px) scaleX(2) scaleY(0.2);
+  }
+  70% {
+    transform: scaleX(1.3) scaleY(0.8);
+  }
+  100% {
+    transform: translateY(0px) scaleX(1) scaleY(0);
+  }
+  100% {
+    transform: translateY(90vh) scaleX(0.8) scaleY(1.5);
+  }
+}
+
+footer:hover {
+  animation-name: crazy-headline;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  transform-origin: 360deg;
+}
+
+@keyframes crazy-headline {
+  0% {
+    background-color: lightblue;
+    transform: scale(0, 5) rotate(0deg);
+  }
+  50% {
+    background-color: lightgreen;
+    transform: scale(1) rotate(180deg);
+  }
+  100% {
+    background-color: lightcoral;
+    transform: scale(2) rotate(360deg);
+  }
+}
